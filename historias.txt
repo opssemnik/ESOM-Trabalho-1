@@ -1,0 +1,47 @@
+
+História de Usuário
+
+Personas: 
+URI Judge, Programador iniciante
+
+Modelo inclusivo
+
+História de usuário 
+
+"Eu, sendo [usuário],
+gostaria de [somar dois números]
+para [obter o resultado]."
+
+"AS, I WOULD LIKE, IN ORDER TO"
+
+Critérios de aceitação:
+a. Variáveis a, b e x.
+b. A mensagem inicia com "X = ".
+c. A mensagem termina com fim de linha (RETURN).
+
+Testes:
+x. {(10, 9) -> ("X = 19")}
+y. {(-10, 4) -> ("X = -6")}
+z. {(15, -7) -> ("X = 8")}
+
+Gherkin
+
+"Given, When, Then"
+"Dado, Quando, Então"
+
+Dado [os valores de :a e :b]
+Quando [solicitar a soma]
+Então [o resultado será :s].
+a   | b  | s
+10  | 9  | 19
+-10 | 4  | - 6
+15  | -7 | 8
+
+Dado os valores de 10 e 9
+Quando solicitar a soma
+Então o resultado será 19
+
+
+Tarefas
+1. Decidir tecnologia (plataforma - Platform Specific Model) -> C99
+2. Codificar e testar
